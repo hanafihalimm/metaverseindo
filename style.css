@@ -3,12 +3,24 @@ html {
   scroll-behavior: smooth;
 }
 
+.fw-semibold {
+  font-weight: 600;
+}
+
 .fw-medium {
   font-weight: 500;
 }
 
 .font-14 {
   font-size: 14px;
+}
+
+.font-36 {
+  font-size: 36;
+}
+
+.font-24 {
+  font-size: 24;
 }
 
 .font-18 {
@@ -18,7 +30,26 @@ html {
 .font-20 {
   font-size: 20px;
 }
+.title-font {
+  font-size: 64px;
+}
 
+/* @media only screen and (max-width: 600px) {
+  .header-screen {
+    height: 30rem;
+  }
+} */
+
+.popup {
+  background-color: #fff;
+  font-size: ;
+}
+
+@media only screen and (max-width: 600px) {
+  .title-font {
+    font-size: 20px;
+  }
+}
 .text-header:hover {
   color: #b28cc0 !important;
 }
@@ -37,20 +68,29 @@ html {
   color: #b28cc0;
 }
 
+/* @media only screen and (max-width: 600px) {
+  .min-hero {
+    width: 5rem;
+    height: auto;
+  }
+} */
+
 .min-hero {
-  min-width: 40rem;
+  width: 40vw;
 }
 
 .hero-image {
   background-image: url(./img/background.png);
   background-position: center;
   background-size: cover;
-  min-width: 100%;
-  min-height: 100%;
+  min-width: 56rem;
+  min-height: 56rem;
+  /* width: 100vw;
+  height: 100vw; */
 }
 
 .border-hero {
-  width: 70%;
+  width: 25vw;
   border-bottom: 0.313rem solid #dee2e6 !important;
 }
 
