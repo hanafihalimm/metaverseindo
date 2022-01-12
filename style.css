@@ -3,12 +3,24 @@ html {
   scroll-behavior: smooth;
 }
 
+.fw-semibold {
+  font-weight: 600;
+}
+
 .fw-medium {
   font-weight: 500;
 }
 
 .font-14 {
   font-size: 14px;
+}
+
+.font-36 {
+  font-size: 36;
+}
+
+.font-24 {
+  font-size: 24;
 }
 
 .font-18 {
@@ -18,7 +30,15 @@ html {
 .font-20 {
   font-size: 20px;
 }
+.title-font {
+  font-size: 64px;
+}
 
+@media only screen and (max-width: 600px) {
+  .title-font {
+    font-size: 20px;
+  }
+}
 .text-header:hover {
   color: #b28cc0 !important;
 }
@@ -38,19 +58,19 @@ html {
 }
 
 .min-hero {
-  min-width: 40rem;
+  width: 40vw;
 }
 
 .hero-image {
   background-image: url(./img/background.png);
   background-position: center;
   background-size: cover;
-  min-width: 100%;
-  min-height: 100%;
+  min-width: 56rem;
+  min-height: 56rem;
 }
 
 .border-hero {
-  width: 70%;
+  width: 25vw;
   border-bottom: 0.313rem solid #dee2e6 !important;
 }
 
@@ -76,49 +96,9 @@ html {
   min-height: 100%;
 }
 
-/* .deskripsi-tentang {
-  padding-left: 15rem;
-  padding-right: 20rem;
-  padding-top: 18rem;
-  padding-bottom: 13rem;
-  max-width: 100%;
-  position: absolute;
-  left: 40rem;
-} */
-
-/* .section-visi {
-  background-image: url(./img/Visi.png);
-  background-position: center;
-  background-size: cover;
-  min-width: 100%;
-  min-height: 100%;
-} */
-
 .section-visi {
   background: linear-gradient(134.96deg, #211a26 20.14%, #1f1a38 98.42%);
 }
-/* 
-.quote::before {
-  display: block;
-  color: #fff;
-  content: close-quote;
-  font-size: 10rem;
-}
-
-.quote::after {
-  display: block;
-  color: #fff;
-  content: close-quote;
-  font-size: 10rem;
-} */
-
-/* .section-misi {
-  background-image: url(./img/Misi.png);
-  background-position: center;
-  background-size: cover;
-  min-width: 100%;
-  min-height: 100%;
-} */
 
 .section-misi {
   background: linear-gradient(134.96deg, #211a26 20.14%, #1f1a38 98.42%);
@@ -153,10 +133,9 @@ html {
   font-size: 24px;
   font-family: "Montserrat";
 }
-/* 
-.padding-buku {
-  padding-left: 5rem;
-  padding-right: 5rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-} */
+
+.popup {
+  align-items: center;
+  width: 100%;
+  min-height: 50vw;
+}
